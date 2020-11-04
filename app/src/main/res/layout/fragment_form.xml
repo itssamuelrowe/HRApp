@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:layout_margin="16px"
+            />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPhonetic"
+            android:layout_margin="16px"
+            android:hint="Phone Number"
+            />
+
+        <CheckBox
+            android:id="@+id/be"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B.E."
+            android:layout_margin="16px"
+            />
+
+        <CheckBox
+            android:id="@+id/me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M.E."
+            android:layout_margin="16px"
+            />
+
+        <CheckBox
+            android:id="@+id/phd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PhD"
+            android:layout_margin="16px"
+            />
+
+        <Spinner
+            android:id="@+id/position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16px"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Apply"
+            />
+    </LinearLayout>
+
+</FrameLayout>

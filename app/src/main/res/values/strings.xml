@@ -1,0 +1,12 @@
+<resources>
+    <!-- strings.xml -->
+    <string name="app_name">HRApp</string>
+    <string-array name="positions">
+        <item>Assistant Professor</item>
+        <item>Associate Professor</item>
+        <item>Professor</item>
+        <item>Director</item>
+        <item>Chief Librarian</item>
+        <item>Lab Technician</item>
+    </string-array>
+</resources>
